@@ -83,5 +83,34 @@ a{
     font-size: 18px;
     background-color: transparent;
     border: none;
-    position: relative;
+    position: absolute;
+    right : 0;
+    margin: 8px 10px;
+    display: none;
+}
+.toggle-button:focus{
+    outline: none;
+}
+@media(max-width:862px){
+    .toggle-button{
+        display: initial;
+    }
+    .collapse{
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.5s ease-in;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .collapse .nav-link{
+        display: block;
+        text-align: center;
+    }
+    .search-box{
+        border-right: none;
+    }
+    .collapse-toggle{
+        max-height: 500px;
+    }
 }
