@@ -45,7 +45,19 @@ a{
     padding: 0 15px;
     margin: auto;
 }
-
+.img-fluid{
+    width: 100%;
+}
+.text-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.display-1{
+    font-size: 16px;
+}
+.text-center{
+    text-align: center;
+}
 /*section styling*/
 /*navigation menu*/
 .navbar{
@@ -113,4 +125,18 @@ a{
     .collapse-toggle{
         max-height: 500px;
     }
+}
+/*main*/
+#main{
+    margin-top: 4em;
+}
+#posts{
+    margin-bottom: 4em;
+}
+.grid{
+    margin: 0 auto;
+}
+.grid .grid-item{
+    width: calc(33.3333% - 20px);
+    margin-bottom: 3em;
 }
