@@ -128,15 +128,15 @@ a{
 }
 /*main*/
 #main{
-    margin-top: 4em;
+    margin-top: 3em;
 }
 #posts{
-    margin-bottom: 4em;
+    margin-bottom: 3em;
 }
 .grid{
-    margin: 0 auto;
+    margin: 3em auto;
 }
 .grid .grid-item{
-    width: calc(33.3333% - 20px);
-    margin-bottom: 3em;
+    width: calc(33.3333% - 15px);
+    margin-bottom: 1em;
 }
